@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+    @apply border rounded w-32 h-10 mx-2 duration-200 flex justify-between items-center px-4;
+}
+
+button:hover {
+    @apply bg-slate-50 -translate-y-0.5;
+}
+
+button:active {
+    @apply bg-slate-100;
+}
